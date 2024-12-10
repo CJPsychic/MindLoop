@@ -1,6 +1,6 @@
 const decks = [
 	"Hiragana",
-	"Japanese Core 100 Vocab",
+	"Japanese Core 50 Vocab",
 ];
 
 document.getElementById("decks").innerHTML = decks;
