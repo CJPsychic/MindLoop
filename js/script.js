@@ -68,6 +68,8 @@ function showNextCard() {
         document.getElementById('card-front').innerText = 'No cards to review right now.';
     }
 	document.getElementById('card-back').innerText = "";
+    document.getElementById('easy').innerHTML = "Easy";
+    document.getElementById('hard').innerHTML = "Hard";	
 }
 
 function removeCard() {
@@ -80,5 +82,5 @@ function removeCard() {
 		document.getElementById('card-back').innerText = "";
     }
     saveCards();
-    }
 }
+
