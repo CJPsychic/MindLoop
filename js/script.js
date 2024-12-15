@@ -77,6 +77,8 @@ function removeCard() {
         showNextCard();
     } else {
         document.getElementById('card-front').innerText = 'No cards to review right now.';
+		document.getElementById('card-back').innerText = "";
     }
     saveCards();
+    }
 }
